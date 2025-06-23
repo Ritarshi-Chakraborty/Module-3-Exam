@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: dfe24e24-63d7-4aea-80c4-4e0ed81e91cd
+name: 'Drush Site-Install'
+mail: ritarshi.chakraborty@innoraft.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/9
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null
