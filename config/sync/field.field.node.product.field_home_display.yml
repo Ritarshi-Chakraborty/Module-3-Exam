@@ -1,0 +1,21 @@
+uuid: 088ad4ae-dea4-4aa3-a956-db1204380117
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_home_display
+    - node.type.product
+id: node.product.field_home_display
+field_name: field_home_display
+entity_type: node
+bundle: product
+label: 'Home display'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

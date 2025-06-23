@@ -1,0 +1,29 @@
+uuid: e5eeb09e-c0c7-4349-96ff-f4b5eabdaee4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.home_news_view
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__home_news_view_block_1
+theme: olivero
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:home_news_view-block_1'
+settings:
+  id: 'views_block:home_news_view-block_1'
+  label: 'Recent news'
+  label_display: visible
+  provider: views
+  views_label: 'Recent news'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home
